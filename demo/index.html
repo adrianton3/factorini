@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorini</title>
+    <style>
+        body {
+            padding-left: 16px;
+            padding-top: 4px;
+        }
+
+        textarea {
+            font-size: 28px;
+            width: 1516px;
+        }
+
+        #output {
+            height: 512px;
+        }
+
+        #input {
+            height: 128px;
+        }
+
+        span {
+            font-family: sans-serif;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <span>Output</span><br>
+    <textarea id="output" readonly></textarea><br><br><br>
+    <span>Input</span><br>
+    <textarea id="input"></textarea>
+
+    <script>window.st = {}</script>
+
+    <script src="../src/common.js"></script>
+    <script src="../src/parser.js"></script>
+    <script src="../src/std.js"></script>
+    <script src="../src/runtime.js"></script>
+
+    <script src="../test/test.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
